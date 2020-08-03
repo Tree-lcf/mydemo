@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /mydemo
+
+logging:
+  level:
+    root: info
+    com.tree.mydemo: warn
+  file:
+    name: logs/system.log
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
