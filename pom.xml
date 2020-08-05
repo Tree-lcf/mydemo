@@ -65,6 +65,12 @@
             <artifactId>taos-jdbcdriver</artifactId>
             <version>1.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
 
 
     </dependencies>
